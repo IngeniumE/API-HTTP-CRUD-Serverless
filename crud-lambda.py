@@ -4,8 +4,8 @@ from decimal import Decimal
 
 client = boto3.client('dynamodb')
 dynamodb = boto3.resource("dynamodb")
-table = dynamodb.Table('http-crud-tutorial-items')
-tableName = 'http-crud-tutorial-items'
+table = dynamodb.Table('crud-items')
+tableName = 'crud-items'
 
 
 def lambda_handler(event, context):
