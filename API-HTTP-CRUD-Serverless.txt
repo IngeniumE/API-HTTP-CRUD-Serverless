@@ -19,7 +19,7 @@ Esta Lambda crea, lee, actualiza y elimina
 Nombre: crud-lambda
 
 PASO 4
-*-*-* Crear Lambda *-*-*
+*-*-* Crear API*-*-*
 Tipo: HTTP
 Nombre: crud-api
 
@@ -43,7 +43,7 @@ PASO 7
 Tipo de integración: funcion Lambda
 
 PASO 8
-*-* Conectar la integracoón con la ruta *-*
+*-* Conectar la integración con la ruta *-*
 Para todas las rutas se integra la misma
 función Lambda (crud-lambda)
 
